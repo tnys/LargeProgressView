@@ -1,6 +1,6 @@
 //
-//  DesleeProgressView.h
-//  DesleeClama
+//  LargeProgressView.h
+//  LargeProgressView
 //
 //  Created by Tom Nys on 14/02/13.
 //  Copyright (c) 2013 Netwalk VOF. All rights reserved.
