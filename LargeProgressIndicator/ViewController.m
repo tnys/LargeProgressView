@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LargeProgressView.h"
 
 @interface ViewController ()
 
@@ -17,7 +18,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+	LargeProgressView* lpv = [[LargeProgressView alloc] initWithFrame:CGRectMake(0, 0, 150, 150)];
+	lpv.center = self.view.center;
+	[self.view addSubview:lpv];
+	
+	[NSTimer scheduledTimerWithTimeInterval:.25 target:self selector:@selector(updateProgress:) userInfo:lpv repeats:YES];
+}
+
+-(void)updateProgress:(NSTimer*)t
+{
+	LargeProgressView* lpv = t.userInfo;
+	lpv.progress = lpv.progress + .01;
+	if (lpv.progress > 1.)
+		lpv.progress = 0.;
 }
 
 - (void)didReceiveMemoryWarning

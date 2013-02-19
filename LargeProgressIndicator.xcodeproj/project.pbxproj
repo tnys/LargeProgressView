@@ -18,6 +18,7 @@
 		DB64ECF816D3BD1E001625F5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB64ECF716D3BD1E001625F5 /* Default-568h@2x.png */; };
 		DB64ECFB16D3BD1E001625F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64ECFA16D3BD1E001625F5 /* ViewController.m */; };
 		DB64ECFE16D3BD1E001625F5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB64ECFC16D3BD1E001625F5 /* ViewController.xib */; };
+		DB64ED0616D3BD48001625F5 /* LargeProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64ED0516D3BD48001625F5 /* LargeProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		DB64ECF916D3BD1E001625F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DB64ECFA16D3BD1E001625F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DB64ECFD16D3BD1E001625F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		DB64ED0416D3BD48001625F5 /* LargeProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargeProgressView.h; sourceTree = "<group>"; };
+		DB64ED0516D3BD48001625F5 /* LargeProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LargeProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		DB64ECE716D3BD1E001625F5 /* LargeProgressIndicator */ = {
 			isa = PBXGroup;
 			children = (
+				DB64ED0416D3BD48001625F5 /* LargeProgressView.h */,
+				DB64ED0516D3BD48001625F5 /* LargeProgressView.m */,
 				DB64ECF016D3BD1E001625F5 /* AppDelegate.h */,
 				DB64ECF116D3BD1E001625F5 /* AppDelegate.m */,
 				DB64ECF916D3BD1E001625F5 /* ViewController.h */,
@@ -176,6 +181,7 @@
 				DB64ECEE16D3BD1E001625F5 /* main.m in Sources */,
 				DB64ECF216D3BD1E001625F5 /* AppDelegate.m in Sources */,
 				DB64ECFB16D3BD1E001625F5 /* ViewController.m in Sources */,
+				DB64ED0616D3BD48001625F5 /* LargeProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
